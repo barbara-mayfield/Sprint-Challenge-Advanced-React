@@ -12,7 +12,7 @@ const Nav = props => {
     <nav className="navbar">
       <h1>Player Stats</h1>
       <div className="dark-mode__toggle">
-        <div
+        <div data-testid="toggle-mode"
           onClick={toggleMode}
           className={darkMode ? 'toggle toggled' : 'toggle'}
         />
