@@ -9,7 +9,7 @@ const Nav = props => {
     };
 
   return (
-    <nav className="navbar">
+    <div data-testid="nav" className="navbar">
       <h1>Player Stats</h1>
       <div className="dark-mode__toggle">
         <div data-testid="toggle-mode"
@@ -17,7 +17,7 @@ const Nav = props => {
           className={darkMode ? 'toggle toggled' : 'toggle'}
         />
       </div>
-    </nav>
+    </div>
   );
 }
 

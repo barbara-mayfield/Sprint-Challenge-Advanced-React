@@ -2,7 +2,6 @@ import React from 'react';
 import PlayerCard from './PlayerCard';
 
 const PlayerInfo = ({ data }) => {
-    console.log("PLAYER INFO", data)
     return (
         <div>
             <div>
